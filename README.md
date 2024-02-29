@@ -15,6 +15,20 @@ This section describes how to set up the project locally. To get started, you'll
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/GvonB/japanese-swipe-typing-site.git
+   git clone https://github.com/GVonB/japanese-swipe-typing-site.git
    ```
+2. Navigate to the project directory:
+   ```bash
+   cd japanese-swipe-typing-site
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+The site should now be running on http://localhost:3000.
+
    

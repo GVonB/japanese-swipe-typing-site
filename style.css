@@ -1,0 +1,67 @@
+body, html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    background-color: #E0E5EC; /* Light grey background for contrast */
+    color: #636e72; /* Softened text color for better integration */
+}
+
+header {
+    background-color: #E0E5EC;
+    padding: 20px 0;
+    /* Remove the border for a cleaner look */
+}
+
+#typing-area {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #E0E5EC;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 15px #a3b1c6, /* Outer shadow */
+               -8px -8px 15px #ffffff; /* Inner light */
+}
+
+.character {
+    font-size: 5em;
+    opacity: 0;
+    animation: fadeInRight 1s forwards;
+    display: inline-block;
+    margin-right: -1em; /* Overlapped characters */
+    color: #333; /* Darker color for contrast against the background */
+    font-weight: bold; /* Make characters slightly bolder for readability */
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+input[type="text"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 3em;
+    text-align: center;
+    width: 1.5em;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: #E0E5EC;
+    box-shadow: inset 8px 8px 8px #a3b1c6, /* Inner top shadow */
+                inset -8px -8px 8px #ffffff; /* Inner bottom light */
+    color: #636e72; /* Match the text color with the general color scheme */
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #E0E5EC;
+    color: #636e72; /* Ensure footer text matches the overall design */
+}
