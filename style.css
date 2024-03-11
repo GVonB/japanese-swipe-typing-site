@@ -9,16 +9,14 @@ body, html {
 
 header {
     background-color: #E0E5EC;
-    padding: 20px 0;
-    /* Remove the border for a cleaner look */
+    text-align: center;
+    font-size: 4em;
 }
 
 #typing-area {
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 0.5em;
     background-color: #E0E5EC;
-    padding: 20px;
-    border-radius: 20px;
     
 }
 
@@ -44,9 +42,7 @@ header {
 }
 
 input[type="text"] {
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 3em;
+    font-size: 10em;
     text-align: center;
     width: 1.5em;
     border: none;
@@ -59,8 +55,6 @@ input[type="text"] {
 }
 
 footer {
-    margin-top: 20px;
-    padding: 10px;
     background-color: #E0E5EC;
     color: #636e72; /* Ensure footer text matches the overall design */
 }
