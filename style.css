@@ -29,6 +29,7 @@ header {
     text-align: center;
     font-size: 9vw;
     margin-top: 5vh;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
 }
 
 #typing-area {
