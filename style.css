@@ -19,8 +19,7 @@ header {
     background-color: #E0E5EC;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 8px 8px 15px #a3b1c6, /* Outer shadow */
-               -8px -8px 15px #ffffff; /* Inner light */
+    
 }
 
 .character {
