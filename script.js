@@ -1,7 +1,19 @@
 document.addEventListener('DOMContentLoaded', () => {
     const inputArea = document.getElementById('input-area');
     const displayCharacter = document.getElementById('display-character');
-    const hiraganaCharacters = ['あ', 'い', 'う', 'え', 'お', 'か', 'き', 'く', 'け', 'こ']; // Example set
+    const hiraganaCharacters = [
+        'あ', 'い', 'う', 'え', 'お',
+        'か', 'き', 'く', 'け', 'こ',
+        'さ', 'し', 'す', 'せ', 'そ',
+        'た', 'ち', 'つ', 'て', 'と',
+        'な', 'に', 'ぬ', 'ね', 'の',
+        'は', 'ひ', 'ふ', 'へ', 'ほ',
+        'ま', 'み', 'む', 'め', 'も',
+        'や',       'ゆ',       'よ',
+        'ら', 'り', 'る', 'れ', 'ろ',
+        'わ', 'を',
+        'ん'
+    ];
 
     function setRandomCharacter() {
         const randomIndex = Math.floor(Math.random() * hiraganaCharacters.length);
